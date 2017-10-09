@@ -51,6 +51,10 @@ module.exports = {
       'node_modules'
     ]
   },
+  externals:{
+    'react':'React',
+    'react-dom': 'ReactDOM'
+  },
 
   resolveLoader: {
     modules: ['node_modules']

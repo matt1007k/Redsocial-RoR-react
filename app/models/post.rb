@@ -17,4 +17,9 @@
 class Post < ApplicationRecord
   belongs_to :user
   validates :markdown_content, presence: true, length: { minimum: 2 }
+
+
+  def self.latest
+    order("id desc")
+  end
 end
