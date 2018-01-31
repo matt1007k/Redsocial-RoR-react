@@ -29,6 +29,10 @@ gem 'devise'
 gem 'haml-rails'
 #Annotate para mostrar anotacion en la model de los campos en la base de datos
 gem 'annotate'
+#Paperclip para subir imagenes en rails
+gem 'paperclip', '~> 5.0.0'
+
+
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

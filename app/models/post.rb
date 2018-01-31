@@ -16,6 +16,7 @@
 
 class Post < ApplicationRecord
   belongs_to :user
+  has_many :images
   validates :markdown_content, presence: true, length: { minimum: 2 }
 
 
